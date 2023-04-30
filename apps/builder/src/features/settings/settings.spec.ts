@@ -15,7 +15,7 @@ test.describe.parallel('Settings page', () => {
       await page.goto(`/typebots/${typebotId}/settings`)
       await expect(
         page.locator('a:has-text("Made with Typebot")')
-      ).toHaveAttribute('href', 'https://www.typebot.io/?utm_source=litebadge')
+      ).toHaveAttribute('href', 'https://typebot.xyz/?utm_source=litebadge')
       await page.click('text="Typebot.io branding"')
       await expect(page.locator('a:has-text("Made with Typebot")')).toBeHidden()
 
@@ -46,7 +46,7 @@ test.describe.parallel('Settings page', () => {
       await page.goto(`/typebots/${typebotId}/settings`)
       await expect(
         page.locator('a:has-text("Made with Typebot")')
-      ).toHaveAttribute('href', 'https://www.typebot.io/?utm_source=litebadge')
+      ).toHaveAttribute('href', 'https://typebot.xyz/?utm_source=litebadge')
       await page.click('button:has-text("Typing emulation")')
       await page.fill('[data-testid="speed"] input', '350')
       await page.fill('[data-testid="max-delay"] input', '1.5')
