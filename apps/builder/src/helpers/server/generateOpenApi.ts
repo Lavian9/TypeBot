@@ -6,7 +6,7 @@ const openApiDocument = generateOpenApiDocument(trpcRouter, {
   title: 'Builder API',
   version: '1.0.0',
   baseUrl: 'https://app.typebot.xyz/api/v1',
-  docsUrl: 'https://docs.typebot.io/api',
+  docsUrl: 'https://docs.typebot.xyz/api',
 })
 
 writeFileSync(

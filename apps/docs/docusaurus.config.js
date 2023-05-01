@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Typebot docs',
   tagline: 'Get to Typebot next level with its documentation',
-  url: 'https://docs.typebot.io',
+  url: 'https://docs.typebot.xyz',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

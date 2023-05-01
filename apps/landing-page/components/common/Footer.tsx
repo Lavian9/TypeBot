@@ -9,108 +9,57 @@ import {
   Stack,
   Text,
 } from '@chakra-ui/react'
-import { NextChakraLink } from './nextChakraAdapters/NextChakraLink'
-import Image from 'next/image'
+import { Logo } from 'assets/icons/Logo'
+import { TextLink } from './TextLink'
 
-const facebookGroupUrl = 'https://www.facebook.com/'
-const TypeBotLinkedInUrl = 'https://www.linkedin.com/company/hypecode'
-const TypeBotTwitterUrl = 'https://twitter.com/'
-const TypeBotInstagramUrl = 'https://www.instagram.com/'
-
-const baptisteTwitterUrl = 'https://twitter.com/baptisteArno'
+const facebookGroupUrl = 'https://www.facebook.com/groups/'
+const typebotLinkedInUrl = 'https://www.linkedin.com/company/'
+const typebotTwitterUrl = 'https://twitter.com/'
+const baptisteTwitterUrl = 'https://twitter.com'
 export const contactUrl = 'https://bot.typebot.xyz/landing-page-bubble-en'
 export const roadmapLink = 'https://app.typebot.xyz/feedback'
 export const documentationLink = 'https://docs.typebot.xyz'
 export const githubRepoLink = 'https://github.com/'
-export const hypecode = 'https://hypecode.dev'
 
 export const Footer = () => {
   return (
     <Box w="full">
       <Container as={Stack} maxW={'1000px'} py={10}>
-        <SimpleGrid columns={[1, 2, 4]} spacing={40} px={2}>
+        <SimpleGrid columns={[1, 2, 4]} spacing={8} px={2}>
           <Stack spacing={6}>
             <HStack>
-              <Image
-                src="/images/logo.webp"
-                width="30"
-                height="30"
-                alt="logo"
-              />
-
+              <Logo boxSize="30px" />
               <Heading as="p" fontSize="lg">
-                TypeBot.
+                Typebot
               </Heading>
             </HStack>
-            <Text>Made with ❤️</Text>
-            <NextChakraLink
-              href={hypecode}
-              isExternal
-              color="gray.400"
-            >
-              HypeCode.dev
-            </NextChakraLink>
+            <Text>
+              Made with ❤️ by{' '}
+              <TextLink href="https://HypeCode.dev/">HypeCode.dev</TextLink>
+            </Text>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Product</ListHeader>
-            <NextChakraLink
-              href={documentationLink}
-              isExternal
-              color="gray.400"
-            >
+            <TextLink href={documentationLink} isExternal>
               Documentation
-            </NextChakraLink>
-            {/* <NextChakraLink href={roadmapLink} isExternal color="gray.400">
-              Roadmap
-  </NextChakraLink>*/}
-            <NextChakraLink href={'/pricing'} color="gray.400">
-              Pricing
-            </NextChakraLink>
+            </TextLink>
+            <TextLink href={'/pricing'}>Pricing</TextLink>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Social</ListHeader>
-            {/*<NextChakraLink href={githubRepoLink} isExternal color="gray.400">
-              GitHub repository
-</NextChakraLink>}
-            <NextChakraLink href={facebookGroupUrl} isExternal color="gray.400">
-              Facebook Group
-            </NextChakraLink>*/}
-            <NextChakraLink
-              href={TypeBotTwitterUrl}
-              isExternal
-              color="gray.400"
-            >
-              Twitter
-            </NextChakraLink>
-            <NextChakraLink
-              href={TypeBotLinkedInUrl}
-              isExternal
-              color="gray.400"
-            >
-              LinkedIn
-            </NextChakraLink>
-            <NextChakraLink
-              href={TypeBotInstagramUrl}
-              isExternal
-              color="gray.400"
-            >
-              Instagram
-            </NextChakraLink>
+            <TextLink href="https://dc.hypecode.dev" isExternal>
+              Discord Server
+            </TextLink>
+            <TextLink href="mailto:admin@typebot.xyz" isExternal>
+              Mail
+            </TextLink>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
-            <NextChakraLink href="/about" color="gray.400">
-              About
-            </NextChakraLink>
-            <NextChakraLink href="mailto:info@typebot.xyz" color="gray.400">
-              Contact
-            </NextChakraLink>
-            <NextChakraLink href={'/terms-of-service'} color="gray.400">
-              Terms of Service
-            </NextChakraLink>
-            <NextChakraLink href={'/privacy-policies'} color="gray.400">
-              Privacy Policy
-            </NextChakraLink>
+            <TextLink href="/about">About</TextLink>
+            <TextLink href="mailto:admin@typebot.xyz">Contact</TextLink>
+            <TextLink href={'/terms-of-service'}>Terms of Service</TextLink>
+            <TextLink href={'/privacy-policies'}>Privacy Policy</TextLink>
           </Stack>
         </SimpleGrid>
       </Container>

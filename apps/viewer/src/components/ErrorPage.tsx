@@ -20,8 +20,8 @@ export const ErrorPage = ({ error }: { error: Error }) => {
           </h1>
           <h2>
             Make sure to configure the viewer properly (
-            <a href="https://docs.typebot.io/self-hosting/configuration#viewer">
-              https://docs.typebot.io/self-hosting/configuration#viewer
+            <a href="https://docs.typebot.xyz/self-hosting/configuration#viewer">
+              https://docs.typebot.xyz/self-hosting/configuration#viewer
             </a>
             )
           </h2>

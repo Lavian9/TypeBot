@@ -71,7 +71,7 @@ export const TypebotHeader = () => {
   const handleHelpClick = () => {
     isCloudProdInstance
       ? openSupportBubble()
-      : window.open('https://docs.typebot.io', '_blank')
+      : window.open('https://docs.typebot.xyz', '_blank')
   }
 
   return (

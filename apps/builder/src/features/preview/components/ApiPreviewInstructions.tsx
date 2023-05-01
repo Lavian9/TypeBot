@@ -47,7 +47,7 @@ export const ApiPreviewInstructions = (props: StackProps) => {
       <OrderedList spacing={6}>
         <ListItem>
           All your requests need to be authenticated with an API token.{' '}
-          <TextLink href="https://docs.typebot.io/api/builder/authenticate">
+          <TextLink href="https://docs.typebot.xyz/api/builder/authenticate">
             See instructions
           </TextLink>
           .
@@ -95,7 +95,7 @@ export const ApiPreviewInstructions = (props: StackProps) => {
       </OrderedList>
       <Text fontSize="sm">
         Check out the{' '}
-        <TextLink href="https://docs.typebot.io/api/send-a-message" isExternal>
+        <TextLink href="https://docs.typebot.xyz/api/send-a-message" isExternal>
           API reference
         </TextLink>{' '}
         for more information
