@@ -93,11 +93,10 @@ Typebot is a Monorepo powered by [Turborepo](https://turborepo.org/). It is comp
 - the builder, where you build your typebots
 - the viewer, where your user answer the typebot
 
+
 ## Project
 
-<p>
-Thanks to Baptiste Arnaud, this software is a variant of [TypeBot](https://github.com/baptisteArno/typebot.io) software.
-</p>
+Thanks to Baptiste Arnaud, this software is a variant of [TypeBot](https://github.com/baptisteArno/typebot.io/)  software.
 
 These apps are built with awesome web technologies including [Typescript](https://www.typescriptlang.org/), [Next.js](https://nextjs.org/), [Prisma](https://www.prisma.io/), [Chakra UI](https://chakra-ui.com/), [Tailwind CSS](https://tailwindcss.com/).
 
