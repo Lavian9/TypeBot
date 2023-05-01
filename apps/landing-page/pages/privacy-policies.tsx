@@ -12,10 +12,10 @@ const PrivacyPolicies = () => {
         <Heading as="h1">Privacy Policy for Typebot</Heading>
 
         <p>
-          At typebot.io, accessible from https://www.typebot.io, one of our main
+          At typebot.io, accessible from https://typebot.xyz, one of our main
           priorities is the privacy of our visitors. This Privacy Policy
           document contains types of information that is collected and recorded
-          by typebot.io and how we use it.
+          by typebot.xyz and how we use it.
         </p>
 
         <p>
@@ -83,7 +83,7 @@ const PrivacyPolicies = () => {
         <Heading>Log Files</Heading>
 
         <p>
-          typebot.io follows a standard procedure of using log files. These
+          typebot.xyz follows a standard procedure of using log files. These
           files log visitors when they visit websites. All hosting companies do
           this and a part of hosting services analytics. The information
           collected by log files include internet protocol (IP) addresses,
@@ -113,7 +113,7 @@ const PrivacyPolicies = () => {
         </p>
 
         <p>
-          Note that typebot.io has no access to or control over these cookies
+          Note that typebot.xyz has no access to or control over these cookies
           that are used by third-party advertisers.
         </p>
 
@@ -208,7 +208,7 @@ const PrivacyPolicies = () => {
         </p>
 
         <p>
-          typebot.io does not knowingly collect any Personal Identifiable
+          typebot.xyz does not knowingly collect any Personal Identifiable
           Information from children under the age of 13. If you think that your
           child provided this kind of information on our website, we strongly
           encourage you to contact us immediately and we will do our best

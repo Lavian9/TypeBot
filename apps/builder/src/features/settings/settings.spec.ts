@@ -16,7 +16,7 @@ test.describe.parallel('Settings page', () => {
       await expect(
         page.locator('a:has-text("Made with Typebot")')
       ).toHaveAttribute('href', 'https://typebot.xyz/?utm_source=litebadge')
-      await page.click('text="Typebot.io branding"')
+      await page.click('text="Typebot.xyz branding"')
       await expect(page.locator('a:has-text("Made with Typebot")')).toBeHidden()
 
       await page.click('text="Remember session"')
@@ -119,7 +119,7 @@ test.describe.parallel('Settings page', () => {
       await expect(
         page.locator('[data-testid="starter-lock-tag"]')
       ).toBeVisible()
-      await page.click('text=Typebot.io branding')
+      await page.click('text=Typebot.xyz branding')
       await expect(
         page.locator(
           'text="You need to upgrade your plan in order to remove branding"'
