@@ -4,7 +4,7 @@ import React from 'react'
 export const ArticleCallToAction = () => (
   <VStack spacing={6}>
     <Heading fontSize="xx-large">
-      Collect up to 4x more responses without 4x the work.
+      Collect up to 3x more responses without 3x the work.
     </Heading>
     <Button
       size="lg"
