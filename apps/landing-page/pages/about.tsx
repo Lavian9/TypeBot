@@ -1,9 +1,6 @@
-import { Stack, Text, Box, Flex, Heading } from '@chakra-ui/react'
-import { Header } from 'components/common/Header/Header'
-import { SocialMetaTags } from 'components/common/SocialMetaTags'
-import React from 'react'
+import { Stack } from '@chakra-ui/react'
 import { Footer } from 'components/common/Footer'
-import { NextChakraLink } from 'components/common/nextChakraAdapters/NextChakraLink'
+import { SocialMetaTags } from 'components/common/SocialMetaTags'
 
 const AboutPage = () => {
   return (
@@ -23,7 +20,7 @@ const AboutPage = () => {
         </Flex>
 
         <Text>
-          AutoRepl is a saas where anyone can create free chatbots that they can
+          TypeBot is a saas where anyone can create free chatbots that they can
           easily use and integrate into all platforms.
         </Text>
 
@@ -47,12 +44,12 @@ const AboutPage = () => {
 
         <Text>
           If you have any questions, feel free to reach out to us at{' '}
-          <NextChakraLink
+          <TextLink
             href={'https://dc.hypecode.dev'}
             textDecor="underline"
           >
             discord server
-          </NextChakraLink>
+          </TextLink>
         </Text>
       </Stack>
       <Footer />
