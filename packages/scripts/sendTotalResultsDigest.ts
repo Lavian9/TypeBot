@@ -180,7 +180,7 @@ const sendAlertIfLimitReached = async (
     //     .filter(isDefined),
     //   usagePercent: Math.round((totalChatsUsed / chatsLimit) * 100),
     //   chatsLimit,
-    //   url: `https://app.typebot.io/typebots?workspaceId=${workspace.id}`,
+    //   url: `https://app.typebot.xyz/typebots?workspaceId=${workspace.id}`,
     // })
   }
   return events

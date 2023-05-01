@@ -4,7 +4,7 @@
 
 Typebot complies with the GDPR (the 2018 EU General Data Protection Regulation).
 
-If you need more information about our Privacy and Security Policies, check out the [Privacy Policies](https://www.typebot.io/privacy-policies).
+If you need more information about our Privacy and Security Policies, check out the [Privacy Policies](https://typebot.xyz/privacy-policies).
 
 ## Where is my data stored?
 

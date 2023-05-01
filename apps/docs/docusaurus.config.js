@@ -46,11 +46,11 @@ module.exports = {
           items: [
             {
               label: 'Homepage',
-              to: 'https://www.typebot.io',
+              to: 'https://typebot.xyz',
             },
             {
               label: 'Roadmap',
-              to: 'https://app.typebot.io/feedback',
+              to: 'https://app.typebot.xyz/feedback',
             },
           ],
         },
@@ -72,11 +72,11 @@ module.exports = {
           items: [
             {
               label: 'Terms of Service',
-              href: 'https://www.typebot.io/terms-of-service',
+              href: 'https://typebot.xyz/terms-of-service',
             },
             {
               label: 'Privacy Policy',
-              href: 'https://www.typebot.io/privacy-policies',
+              href: 'https://typebot.xyz/privacy-policies',
             },
           ],
         },

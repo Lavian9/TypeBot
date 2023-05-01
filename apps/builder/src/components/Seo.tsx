@@ -3,7 +3,7 @@ import Head from 'next/head'
 export const Seo = ({
   title,
   description = 'Create and publish conversational forms that collect 4 times more answers and feel native to your product',
-  imagePreviewUrl = 'https://app.typebot.io/site-preview.png',
+  imagePreviewUrl = 'https://app.typebot.xyz/site-preview.png',
 }: {
   title: string
   description?: string

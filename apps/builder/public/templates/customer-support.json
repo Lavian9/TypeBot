@@ -140,9 +140,9 @@
                 "children": [
                   { "text": "👉 " },
                   {
-                    "url": "https://app.typebot.io/feedback",
+                    "url": "https://app.typebot.xyz/feedback",
                     "type": "a",
-                    "children": [{ "text": "https://app.typebot.io/feedback" }]
+                    "children": [{ "text": "https://app.typebot.xyz/feedback" }]
                   },
                   { "text": "" }
                 ]

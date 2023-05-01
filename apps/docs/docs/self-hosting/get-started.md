@@ -12,7 +12,7 @@ You don't have to be an expert to launch your own instance of Typebot but you ne
 If you're blocked at some point or you find that the documentation is not clear, you can reach out to us on the [forum](https://github.com/baptisteArno/typebot.io/discussions).
 
 :::note
-The easiest way to get started with Typebot is with [the official managed service in the Cloud](https://app.typebot.io). You'll have high availability, backups, security, and maintenance all managed for you by me, Baptiste, Typebot's founder.
+The easiest way to get started with Typebot is with [the official managed service in the Cloud](https://app.typebot.xyz). You'll have high availability, backups, security, and maintenance all managed for you by me, Baptiste, Typebot's founder.
 
 The cloud version can save a substantial amount of developer time and resources. For most sites this ends up being the best value option and the revenue goes to funding the maintenance and further development of Typebot. So you’ll be supporting open source software and getting a great service!
 :::

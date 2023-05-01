@@ -5,7 +5,7 @@ import { SocialMetaTags } from 'components/common/SocialMetaTags'
 const PrivacyPolicies = () => {
   return (
     <div className="flex flex-col items-center w-full overflow-x-hidden ">
-      <SocialMetaTags currentUrl={`https://www.typebot.io/terms-of-service`} />
+      <SocialMetaTags currentUrl={`https://typebot.xyz/terms-of-service`} />
       <Header />
       <Stack spacing={10} mx="auto" maxW="3xl" my="20">
         <Heading as="h1">Website Terms and Conditions of Use</Heading>
@@ -13,7 +13,7 @@ const PrivacyPolicies = () => {
         <Heading>1. Terms</Heading>
 
         <p>
-          By accessing this Website, accessible from https://www.typebot.io, you
+          By accessing this Website, accessible from https://typebot.xyz, you
           are agreeing to be bound by these Website Terms and Conditions of Use
           and agree that you are responsible for the agreement with any
           applicable local laws. If you disagree with any of these terms, you

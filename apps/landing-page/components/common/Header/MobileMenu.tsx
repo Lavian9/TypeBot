@@ -16,7 +16,7 @@ export const MobileMenu = ({ isOpen }: Props) => (
     >
       <Button
         as={Link}
-        href="https://app.typebot.io/signin"
+        href="https://app.typebot.xyz/signin"
         colorScheme="blue"
         variant="outline"
         fontWeight={700}

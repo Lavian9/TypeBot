@@ -9,66 +9,108 @@ import {
   Stack,
   Text,
 } from '@chakra-ui/react'
-import { Logo } from 'assets/icons/Logo'
-import { TextLink } from './TextLink'
+import { NextChakraLink } from './nextChakraAdapters/NextChakraLink'
+import Image from 'next/image'
 
-const facebookGroupUrl = 'https://www.facebook.com/groups/typebot'
-const typebotLinkedInUrl = 'https://www.linkedin.com/company/typebot'
-const typebotTwitterUrl = 'https://twitter.com/Typebot_io'
+const facebookGroupUrl = 'https://www.facebook.com/'
+const TypeBotLinkedInUrl = 'https://www.linkedin.com/company/hypecode'
+const TypeBotTwitterUrl = 'https://twitter.com/'
+const TypeBotInstagramUrl = 'https://www.instagram.com/'
+
 const baptisteTwitterUrl = 'https://twitter.com/baptisteArno'
-export const contactUrl = 'https://bot.typebot.io/landing-page-bubble-en'
-export const roadmapLink = 'https://app.typebot.io/feedback'
-export const documentationLink = 'https://docs.typebot.io'
-export const githubRepoLink = 'https://github.com/baptisteArno/typebot.io'
+export const contactUrl = 'https://bot.typebot.xyz/landing-page-bubble-en'
+export const roadmapLink = 'https://app.typebot.xyz/feedback'
+export const documentationLink = 'https://docs.typebot.xyz'
+export const githubRepoLink = 'https://github.com/'
+export const hypecode = 'https://hypecode.dev'
 
 export const Footer = () => {
   return (
     <Box w="full">
       <Container as={Stack} maxW={'1000px'} py={10}>
-        <SimpleGrid columns={[1, 2, 4]} spacing={8} px={2}>
+        <SimpleGrid columns={[1, 2, 4]} spacing={40} px={2}>
           <Stack spacing={6}>
             <HStack>
-              <Logo boxSize="30px" />
+              <Image
+                src="/images/logo.webp"
+                width="30"
+                height="30"
+                alt="logo"
+              />
+
               <Heading as="p" fontSize="lg">
-                Typebot
+                TypeBot.
               </Heading>
             </HStack>
-            <Text>
-              Made with ❤️ by{' '}
-              <TextLink href={baptisteTwitterUrl}>@baptisteArno</TextLink>
-            </Text>
+            <Text>Made with ❤️</Text>
+            <NextChakraLink
+              href={hypecode}
+              isExternal
+              color="gray.400"
+            >
+              HypeCode.dev
+            </NextChakraLink>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Product</ListHeader>
-            <TextLink href={documentationLink} isExternal>
+            <NextChakraLink
+              href={documentationLink}
+              isExternal
+              color="gray.400"
+            >
               Documentation
-            </TextLink>
-            <TextLink href={roadmapLink} isExternal>
+            </NextChakraLink>
+            {/* <NextChakraLink href={roadmapLink} isExternal color="gray.400">
               Roadmap
-            </TextLink>
-            <TextLink href={'/pricing'}>Pricing</TextLink>
+  </NextChakraLink>*/}
+            <NextChakraLink href={'/pricing'} color="gray.400">
+              Pricing
+            </NextChakraLink>
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader>Community</ListHeader>
-            <TextLink href={githubRepoLink} isExternal>
+            <ListHeader>Social</ListHeader>
+            {/*<NextChakraLink href={githubRepoLink} isExternal color="gray.400">
               GitHub repository
-            </TextLink>
-            <TextLink href={facebookGroupUrl} isExternal>
+</NextChakraLink>}
+            <NextChakraLink href={facebookGroupUrl} isExternal color="gray.400">
               Facebook Group
-            </TextLink>
-            <TextLink href={typebotTwitterUrl} isExternal>
+            </NextChakraLink>*/}
+            <NextChakraLink
+              href={TypeBotTwitterUrl}
+              isExternal
+              color="gray.400"
+            >
               Twitter
-            </TextLink>
-            <TextLink href={typebotLinkedInUrl} isExternal>
+            </NextChakraLink>
+            <NextChakraLink
+              href={TypeBotLinkedInUrl}
+              isExternal
+              color="gray.400"
+            >
               LinkedIn
-            </TextLink>
+            </NextChakraLink>
+            <NextChakraLink
+              href={TypeBotInstagramUrl}
+              isExternal
+              color="gray.400"
+            >
+              Instagram
+            </NextChakraLink>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
-            <TextLink href="/about">About</TextLink>
-            <TextLink href="mailto:baptiste@typebot.io">Contact</TextLink>
-            <TextLink href={'/terms-of-service'}>Terms of Service</TextLink>
-            <TextLink href={'/privacy-policies'}>Privacy Policy</TextLink>
+            <NextChakraLink href="/about" color="gray.400">
+              About
+            </NextChakraLink>
+            <NextChakraLink href="mailto:info@typebot.xyz" color="gray.400">
+              Contact
+            </NextChakraLink>
+            <NextChakraLink href={'/terms-of-service'} color="gray.400">
+              Terms of Service
+            </NextChakraLink>
+            <NextChakraLink href={'/privacy-policies'} color="gray.400">
+              Privacy Policy
+            </NextChakraLink>
           </Stack>
         </SimpleGrid>
       </Container>

@@ -6,7 +6,7 @@
   },
   "servers": [
     {
-      "url": "https://app.typebot.io/api/v1"
+      "url": "https://app.typebot.xyz/api/v1"
     }
   ],
   "paths": {
