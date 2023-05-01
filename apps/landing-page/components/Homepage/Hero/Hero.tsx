@@ -33,7 +33,7 @@ export const Hero = () => {
               bgClip="text"
               data-aos="fade-up"
             >
-              Build advanced chatbots visually
+              Powerful and easy no-code chatbot builder
             </Heading>
             <Text
               fontSize={['lg', 'xl']}
@@ -42,8 +42,8 @@ export const Hero = () => {
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              Typebot gives you powerful blocks to create unique chat
-              experiences. Embed them anywhere on your web/mobile apps and start
+              Let bots talk to your customers with AutoRepl and save time and increase your sales.
+              Embed them anywhere on your web/mobile apps and start
               collecting results like magic.
             </Text>
             <Stack
@@ -53,7 +53,7 @@ export const Hero = () => {
             >
               <Button
                 as={Link}
-                href="https://app.typebot.io/register"
+                href="https://app.typebot.xyz/register"
                 colorScheme="orange"
                 size="lg"
                 height="4rem"

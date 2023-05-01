@@ -96,7 +96,7 @@ export const Header = () => {
           </Button>
           <Button
             as={Link}
-            href="https://app.typebot.io/register"
+            href="https://app.typebot.xyz/register"
             colorScheme="orange"
             fontWeight={700}
           >

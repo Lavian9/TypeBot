@@ -10,7 +10,7 @@ export const ArticleCallToAction = () => (
       size="lg"
       colorScheme="orange"
       as="a"
-      href="https://app.typebot.io/register"
+      href="https://app.typebot.xyz/register"
     >
       Create a typebot
     </Button>
